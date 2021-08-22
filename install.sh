@@ -1,6 +1,5 @@
 #!/bin/sh
 
-chmod +x ./install.sh
 apt-get update
 apt-get install -y \
   curl \
