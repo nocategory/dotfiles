@@ -22,5 +22,3 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
 sudo chsh -s /usr/bin/zsh $USERNAME
-
-zsh
