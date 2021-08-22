@@ -17,7 +17,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 cp -f .zshrc $HOME/.zshrc
 cp -f .config/starship.toml $HOME/.config/starship.toml
 
-cp -f custom $HOME/.oh-my-zsh/custom
+cp -f ./plugins $HOME/.oh-my-zsh/custom
 
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
 sudo chsh -s /usr/bin/zsh $USERNAME
